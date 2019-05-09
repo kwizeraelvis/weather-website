@@ -1,4 +1,4 @@
-console.log("Frontend js loadaded");
+
 
 
 

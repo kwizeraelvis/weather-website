@@ -69,7 +69,7 @@ app.get('/products', (req, res) => {
     res.send({
         products: []
     });
-})
+});
 
 
 app.get('/help/*', (req, res) => {
@@ -78,7 +78,7 @@ app.get('/help/*', (req, res) => {
         name: 'elvis',
         errorMessage: 'Help article not found'
     })
-})
+});
 
 app.get('*', (req, res) => {
     res.render('404', {
